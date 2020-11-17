@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tracks-app",
-    "slug": "tracks-app",
+    "name": "playground",
+    "slug": "playground",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

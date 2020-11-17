@@ -8,9 +8,8 @@ import {
   StyleSheet
 } from 'react-native';
 import { useDispatch } from 'react-redux';
-
 import * as placesActions from '../store/places.actions';
-
+import ImagePicker from '../components/imagePicker'
 const NewPlaceScreen = ({navigation}) => {
   const [titleValue, setTitleValue] = useState('');
 
@@ -34,6 +33,7 @@ const NewPlaceScreen = ({navigation}) => {
           onChangeText={titleChangeHandler}
           value={titleValue}
         />
+        <ImagePicker/>
         <Button
           title="Save Place"
           onPress={savePlaceHandler}
