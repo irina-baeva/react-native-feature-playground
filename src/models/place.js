@@ -1,7 +1,7 @@
 class Place {
 	constructor(id, title) {
-		this.id;
-		this.title;
+        this.id = id;
+        this.title = title;
 	}
 }
 
